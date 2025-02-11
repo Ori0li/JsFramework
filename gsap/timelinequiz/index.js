@@ -12,13 +12,13 @@ tl.fromTo(".third", { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4 });
 
 const t2 = gsap.timeline();
 t2.fromTo(
-  ".subBox > strong",
+  ".sub > h5",
   { y: 20, opacity: 0 },
   { y: 0, opacity: 1, duration: 0.5 }
 );
 
 t2.fromTo(
-  ".subBox > p",
+  ".sub > p",
   { y: 20, opacity: 0 },
   { y: 0, opacity: 1, duration: 0.3 }
 );
