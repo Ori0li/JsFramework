@@ -14,4 +14,14 @@ const swiper = new Swiper(".swiper", {
   scrollbar: {
     el: ".swiper-scrollbar",
   },
+  autoplay: {
+    delay: 3000, // 3초마다 자동전환
+    disableOnInteraction: false,
+  },
+  speed: 800, // 전환 속도
+});
+
+const target = document.querySelector("#target");
+target.addEventListener("mouseover", () => {
+  swiper.slideNext(1000);
 });

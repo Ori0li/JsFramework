@@ -1,0 +1,10 @@
+h1 {
+  line-height: 50px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 15px;
+}

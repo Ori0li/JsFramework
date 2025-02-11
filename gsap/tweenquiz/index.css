@@ -1,0 +1,29 @@
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid purple;
+}
+
+.rt {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.rb {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.lt {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.lb {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

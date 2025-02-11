@@ -1,0 +1,11 @@
+body {
+  display: flex;
+}
+
+.titleBox {
+  width: 50%;
+}
+
+.subBox {
+  width: 50%;
+}
